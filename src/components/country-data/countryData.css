@@ -1,0 +1,38 @@
+.search-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    background-color: rgb(201, 197, 197);
+    height: 80px;
+}
+.search{
+    width: 250px;
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 10px;
+}
+.search:focus{outline: none;}
+.submit{
+    padding: 8px;
+    margin-left: 8px;
+    border: 2px solid gray;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.submit:hover{border: 2px solid rgb(156, 154, 154);}
+.country-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.info{
+    width: 75%;
+    background-color: brown;
+    color: whitesmoke;
+    padding: 20px 35px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
